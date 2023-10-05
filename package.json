@@ -1,0 +1,24 @@
+{
+  "name": "sp-test-package",
+  "version": "0.0.1",
+  "description": "Test package for npm publish",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://google.com",
+  "repository": {
+    "url": "https://github.com/SumeetP96/sp-test-package.git"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "SumeetP96",
+  "license": "MIT",
+  "dependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}

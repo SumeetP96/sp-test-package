@@ -1,0 +1,11 @@
+.DS_Store
+.desktop.ini
+
+/src
+/node_modules
+
+.env
+
+tsconfig.json
+tsup.config.ts
+
